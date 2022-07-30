@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Bookland online home</title> 
+      <link rel="icon" href="./logo.png"  type="image/x-icon">
+      <link rel="stylesheet"  href="style1.css">
+      
+      <style>
+      
+      body {
+        background-color: #E1F8DC;
+      }
+      #slider {
+        position: relative;
+        width: 1500px;
+        height: 500px;
+        margin: 3%;
+        overflow: hidden;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        
+      }
+      #slider ul {
+        position: relative;
+        list-style: none;
+        height: 100%;
+        width: 10000%;
+        padding: 0;
+        margin: 0;
+        transition: all 650ms ease;
+        left: 0;
+      }
+      #slider ul li {
+        position: relative;
+        height: 100%;
+       
+        float: left;
+      }
+      #slider ul li img{
+        width: 1500px;
+        height: 500px;
+        float: left;
+      }
+       
+      #slider #prev, #slider #next {
+        width: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 2rem;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 150ms ease;
+      }
+      #slider #prev:hover, #slider #next:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        text-shadow: 0;
+      }
+      #slider #prev {
+        left: 10px;
+      }
+      #slider #next {
+        right: 10px;
+      }
+      
+
+
+
+
+      </style>
+
+    </head>
+    <body>
+      <div class="wrapper">
+        <div class="menu-bar">
+           <!--<img src="D:/Apps/photo/logo.png" alt="logo">--->
+         <div class="nav-area">
+         <ul>
+            <li><span class="text" data-fill-text="Welcome in Bookland">Welcome in Bookland</span></li>
+         </ul> 
+         </div>     
+        </div>
+        <nav class="menu">
+         <ul>
+          <li><a href="./index10.html"><b>Services</b></a></li>
+          <li><a href="./index8.html"><b>Contact</b></a> </li>
+          <li><a href="./index9.html"><b>My cart</b></a></li>
+         </ul>
+        <form class="search-form">
+            <input type="text"  placeholder="Search">
+            <button type="button" onclick="location.href='./index2.html'">Search</button>
+        </form>
+        </nav>
+      
+      <div id="slider">
+        <ul id="slideWrap"> 
+          <li><img src="./image 1.jpg" alt=""></li>
+          <li><img src="./image 2.jpg" alt=""></li>
+          <li><img src="./image 3.jpg" alt=""></li>
+          <li><img src="./image 200.jpg" alt=""></li>
+          
+          
+        
+        </ul>
+         <a id="prev" href="#">&#8810;</a>
+         <a id="next" href="#">&#8811;</a>
+      </div>
+    </br>
+  </br>
+  
+
+      <h1>~~~~~~~~~~~~~~~~~ Hot Deal ~~~~~~~~~~~~~~~~~~~~</h1>
+    </br>
+      
+    
+    <div class="show">
+      <div class="fullwrap">
+        <img src="./image 7.jpg" width="500px"  height="300px"/>
+        <div class="fullcap">
+          <h2>Educational books </h2></br>
+          <button type="button" onclick="location.href='./index2.html'">View collection</button>
+        </div>
+      </div>
+      <div class="fullwrap">
+        <img src="./image 8.jpg" width="500px"  height="300px"/>
+        <div class="fullcap">
+          <h2>Short stories</h2></br>
+          <button type="button" onclick="location.href='./index3.html'">View collection</button>
+        </div>
+      </div>
+      <div class="fullwrap">
+        <img src="./image 9.jpg" width="500px"  height="300px"/>
+        <div class="fullcap">
+          <h2>Sinhala novels </h2></br>
+          <button type="button" onclick="location.href='./index5.html'">View collection</a></button>
+        </div>
+      </div>
+      <div class="fullwrap">
+        <img src="./image 10.jpg" width="500px"  height="300px"/>
+        <div class="fullcap">
+          <h2>English books </h2></br>
+          <button type="button" onclick="location.href='./index6.html'">View collection</button>
+        </div>
+      </div>
+      <div class="fullwrap">
+        <img src="./image 11.jpg" width="500px"  height="300px"/>
+        <div class="fullcap">
+          <h2>Science fiction books </h2></br>
+          <button type="button" onclick="location.href='./index7.html'">View collection</button>
+        </div>
+      </div>
+    </br>
+  </br>
+  </div>
+</br>
+</br>
+  <h1> ~~~~~~~~~~~~~~~~~~~~~ Trending ~~~~~~~~~~~~~~~~~~~~</h1>
+</br>
+</br>
+
+
+<div class="navbar">
+  <div class="slider-container">
+    <div class="menuslide">
+      <label for="slide-dot-1"></label>
+      <label for="slide-dot-2"></label>
+      <label for="slide-dot-3"></label>
+    </div>
+    <input id="slide-dot-1" type="radio" name="slides" checked>
+    <div class="slide slide-1"></div>
+    <input id="slide-dot-2" type="radio" name="slides">
+    <div class="slide slide-2"></div>
+    <input id="slide-dot-3" type="radio" name="slides">
+    <div class="slide slide-3"></div>
+  </div>
+</div>
+</br>
+</br>
+<h1>~~~~~~~~~~~~~~~~~~~ Bestseller ~~~~~~~~~~~~~~~~~~~~~</h1>  
+</br>
+</br>  
+<div class="full">
+<div class="fullwrap">
+  <img src="./image 13.jpg" width="500px"  height="300px"/>
+  <div class="fullcap">
+    <h2>THE DARK ROAD </h2>
+  </div>
+</div>  
+<div class="fullwrap">
+  <img src="./image 14.jpg" width="500px"  height="300px"/>
+  <div class="fullcap">
+    <h2>GOLU HADAWATHA</h2>
+  </div>
+</div>  
+<div class="fullwrap">
+  <img src="./image 22.jpg" width="500px"  height="300px"/>
+  <div class="fullcap">
+    <h2>THE THORN BIRDS </h2>
+  </div>
+</div> 
+<div class="fullwrap">
+  <img src="./image 17.jpg" width="500px"  height="300px"/>
+  <div class="fullcap">
+    <h2>HATHURU HITHAK </h2>
+  </div>
+</div> 
+<div class="fullwrap">
+  <img src="./image 23.jpg" width="500px"  height="300px"/>
+  <div class="fullcap">
+    <h2>THE GOOSE GIRL</h2>
+  </div>
+</div> 
+</div>
+</br>
+</br>
+
+<h1> ~~~~~~~~~~~~~~~~~~ New Arrivals ~~~~~~~~~~~~~~~~</h1> </br></br>
+      <div class="anime">
+        <div class="fullwrap">
+          <img src="./image 24.jpg" width="300px"  height="300px" />
+          <div class="fullcap">
+            <h2>Now Available</h2>
+            <button type="button" onclick="location.href='./index6.html'">View </button>
+          </div>
+        </div>  
+        <div class="fullwrap">
+          <img src="./image 27.jpg" width="300px"  height="300px"  />
+          <div class="fullcap">
+            <h2>Now Available</h2>
+            <button type="button" onclick="location.href='./index6.html'">View </button>
+          </div>
+        </div>  
+        <div class="fullwrap">
+          <img src="./image 28.jpg" width="300px"  height="300px"  />
+          <div class="fullcap">
+            <h2>Now Available </h2>
+            <button type="button" onclick="location.href='./index6.html'">View </button>
+          </div>
+        </div> 
+        <div class="fullwrap">
+          <img src="./image 19.jpg" width="300px"  height="300px"  />
+          <div class="fullcap">
+            <h2>Now Available </h2>
+            <button type="button" onclick="location.href='./index3.html'">View </button>
+          </div>
+        </div> 
+        <div class="fullwrap">
+          <img src="./image 26.jpg" width="300px"  height="300px"/>
+          <div class="fullcap">
+            <h2>Now Available</h2>
+            <button type="button" onclick="location.href='./index6.html'">View </button>
+          </div>
+        </div> 
+     </div>
+    </br>
+  </br>
+        <div class="anime">
+          <div class="fullwrap">
+            <img src="./image 167.jpg" width="300px"  height="300px" />
+            <div class="fullcap">
+              <h2>Now Available</h2>
+              <button type="button" onclick="location.href='./index6.html'">View </button>
+            </div>
+          </div>  
+          <div class="fullwrap">
+            <img src="./image 33.jpg" width="300px"  height="300px"  />
+            <div class="fullcap">
+              <h2>Now Available</h2>
+              <button type="button" onclick="location.href='./index6.html'">View </button>
+            </div>
+          </div>  
+          <div class="fullwrap">
+            <img src="./image 74.jpg" width="300px"  height="300px"  />
+            <div class="fullcap">
+              <h2>Now Available </h2>
+              <button type="button" onclick="location.href='./index5.html'">View </button>
+            </div>
+          </div> 
+          <div class="fullwrap">
+            <img src="./image 159.jpg" width="300px"  height="300px"  />
+            <div class="fullcap">
+              <h2>Now Available </h2>
+              <button type="button" onclick="location.href='./index6.html'">View </button>
+            </div>
+          </div> 
+          <div class="fullwrap">
+            <img src="./image 169.jpg" width="300px"  height="300px"/>
+            <div class="fullcap">
+              <h2>Now Available</h2>
+              <button type="button" onclick="location.href='./index6.html'">View </button>
+            </div>
+          </div> 
+          </div>
+        
+          
+      </br>
+      <br>
+    </br>
+  </br>
+  
+      <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="contact-content text-center">
+                        <p style="text-align:center;"><img src="./logo.png" alt="logo"  width="90px" height="90px"></p>
+                        <p>The best to you. Come visit our website and browse freely </p>
+                        <div class="hr"></div>
+                        <h6>Deshani Senarathna, New Economi Center Rd, Dambulla.</h6>
+                        <h6>+012 345 6789 <span>|</span>+012 345 6798s </h6>
+                        <div class="contact-social">
+                            <ul>
+                                <li><a class="hover-target" href=""><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-linkedin-in"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-github"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+    </br>
+  </br></br></br>
+        <p> &nbsp;&nbsp;Copyright &copy; 2022 &nbsp;<img src="./logo.png" alt="logo"> &nbsp; All Rights Reserved.</p>
+    </footer>
+
+
+
+
+      
+    </div>
+ 
+
+    <script>
+    var responsiveSlider = function() {
+
+      var slider = document.getElementById("slider");
+      var sliderWidth = slider.offsetWidth;
+      var slideList = document.getElementById("slideWrap");
+      var count = 1;
+      var items = slideList.querySelectorAll("li").length;
+      var prev = document.getElementById("prev");
+      var next = document.getElementById("next");
+      
+      window.addEventListener('resize', function() {
+        sliderWidth = slider.offsetWidth;
+      });
+      
+      var prevSlide = function() {
+        if(count > 1) {
+          count = count - 2;
+          slideList.style.left = "-" + count * sliderWidth + "px";
+          count++;
+        }
+        else if(count = 1) {
+          count = items - 1;
+          slideList.style.left = "-" + count * sliderWidth + "px";
+          count++;
+        }
+      };
+      
+      var nextSlide = function() {
+        if(count < items) {
+          slideList.style.left = "-" + count * sliderWidth + "px";
+          count++;
+        }
+        else if(count = items) {
+          slideList.style.left = "0px";
+          count = 1;
+        }
+      };
+      
+      next.addEventListener("click", function() {
+        nextSlide();
+      });
+      
+      prev.addEventListener("click", function() {
+        prevSlide();
+      });
+      
+      setInterval(function() {
+        nextSlide()
+      }, 8000);
+      
+      };
+      
+      window.onload = function() {
+      responsiveSlider();  
+      }
+      </script>
+    
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      function plusSlides(n) {
+         showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+         showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+         var i;
+         var slides = document.getElementsByClassName("mySlides");
+         var dots = document.getElementsByClassName("dot");
+         if (n > slides.length) {slideIndex = 1}
+         if (n < 1) {slideIndex = slides.length}
+         for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+         }
+         for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+         }
+         slides[slideIndex-1].style.display = "block";
+         dots[slideIndex-1].className += " active";
+      }
+   </script>
+   <script>
+    var responsiveSliderbar = function() {
+
+      var sliderbar = document.getElementById("sliderbar");
+      var sliderbarWidth = sliderbar.offsetWidth;
+      var slideList = document.getElementById("slideWrapbar");
+      var count = 1;
+      var items = slidebarList.querySelectorAll("li").length;
+      var before = document.getElementById("before");
+      var after = document.getElementById("after");
+      
+      window.addEventListener('resize', function() {
+        sliderbarWidth = sliderbar.offsetWidth;
+      });
+      
+      var beforeSlide = function() {
+        if(count > 1) {
+          count = count - 2;
+          slideList.style.left = "-" + count * sliderbarWidth + "px";
+          count++;
+        }
+        else if(count = 1) {
+          count = items - 1;
+          slideList.style.left = "-" + count * sliderbarWidth + "px";
+          count++;
+        }
+      };
+      
+      var afterSlide = function() {
+        if(count < items) {
+          slideList.style.left = "-" + count * sliderbarWidth + "px";
+          count++;
+        }
+        else if(count = items) {
+          slideList.style.left = "0px";
+          count = 1;
+        }
+      };
+      
+      after.addEventListener("click", function() {
+        afterSlide();
+      });
+      
+      before.addEventListener("click", function() {
+        beforeSlide();
+      });
+      
+      setInterval(function() {
+        afterSlide()
+      }, 8000);
+      
+      };
+      
+      window.onload = function() {
+      responsiveSlider();  
+      }
+      </script>
+    </body>
+</html>
