@@ -92,7 +92,7 @@
 }
 .container   
 {
-    flex-basis: 50%;
+    flex-basis: 30%;
     justify-content: center;
     flex-direction: column;
     display: flex;
