@@ -255,6 +255,9 @@ span
     font-size: 15;
 }
 
+ @media screen and (max-width: 1500px) {
+            .left, .main, .right {
+                width: 100%;}
 
 
 
